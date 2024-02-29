@@ -1,0 +1,42 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    
+}
+#logo
+{
+    width: 100px;
+}
+.dropdown-toggle::after
+{
+    display: none;
+}
+.dropdown-menu
+{
+    min-width: 200px;
+}
+.carousel-indicators
+{
+    bottom: 5px;
+    left: 0;
+}
+.carousel-indicators [data-bs-target]{
+    background: grey;
+    height: 10px !important;
+      width: 10px;
+    border-radius: 50%;
+  }
+  
+  .carousel-indicators .active[data-bs-target]{
+    background: red;
+  }
+  
+  .carousel-indicators{
+    opacity: 0;
+  }
+  
+  .carousel:hover .carousel-indicators{
+    opacity: 1;
+  }
+  
